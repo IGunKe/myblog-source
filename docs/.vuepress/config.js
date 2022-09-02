@@ -12,9 +12,7 @@ module.exports = {
         }
     },
     themeConfig: {
-        themeConfig: {
-            logo: './public/logo.png'
-        },
+        logo: '/logo.png',
         nav: [
             { text: '首页', link: '/' },
             {
@@ -41,7 +39,12 @@ module.exports = {
                 path: '/pages/Es6/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 1, // 可选的, 默认值是 1
-                children: ['/pages/Es6/01.md']
+                children: [
+                    '/pages/Es6/01.md',
+                    '/pages/Es6/02.md',
+                    '/pages/Es6/03.md',
+                    '/pages/Es6/04.md'
+                ]
             },
             {
                 title: 'typescript', // 必要的
@@ -53,7 +56,12 @@ module.exports = {
                     '/pages/Ts/02.md',
                     '/pages/Ts/03.md',
                     '/pages/Ts/04.md',
-                    '/pages/Ts/05.md'
+                    '/pages/Ts/05.md',
+                    '/pages/Ts/06.md',
+                    '/pages/Ts/07.md',
+                    '/pages/Ts/08.md',
+                    '/pages/Ts/09.md',
+                    '/pages/Ts/10.md'
                 ]
             }
         ]
