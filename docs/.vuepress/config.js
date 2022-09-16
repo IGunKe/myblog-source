@@ -62,6 +62,14 @@ module.exports = {
 				]
 			},
 			{
+				text: '工具',
+				link: '/pages/',
+				items: [{
+					text: 'Webpack',
+					link: '/pages/Webpack/'
+				}]
+			},
+			{
 				text: 'Github',
 				link: 'https://github.com/IGunKe/myblog'
 			}
@@ -141,7 +149,34 @@ module.exports = {
 					'/pages/Ts/14.md',
 					'/pages/Ts/15.md'
 				]
-			}]
+			}],
+			'/pages/Webpack/': [{
+				title: 'webpack', // 必要的
+				path: '/pages/Webpack/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+				collapsable: false, // 可选的, 默认值是 true,
+				sidebarDepth: 1, // 可选的, 默认值是 1
+				children: [
+					'/pages/Webpack/01.md',
+					'/pages/Webpack/02.md',
+					'/pages/Webpack/03.md',
+					'/pages/Webpack/04.md',
+
+				]
+			}],
+			'/pages/HTML/': [{
+				title: 'HTML', // 必要的
+				path: '/pages/HTML/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+				collapsable: false, // 可选的, 默认值是 true,
+				sidebarDepth: 1, // 可选的, 默认值是 1
+				children: [
+					'/pages/HTML/01.md',
+					'/pages/HTML/02.md',
+					'/pages/HTML/03.md',
+					'/pages/HTML/04.md',
+					'/pages/HTML/05.md',
+					'/pages/HTML/06.md'
+				]
+			}],
 		}
 	}
 };
