@@ -16,6 +16,7 @@ git commit -m 'first commit'
 
 # 如果发布到 https://<USERNAME>.github.io
 git push -f git@github.com:IGunKe/myblog.git master
+# git push -f git@github.com:IGunKe/myblog-source.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
