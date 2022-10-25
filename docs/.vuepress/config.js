@@ -70,6 +70,14 @@ module.exports = {
 				}]
 			},
 			{
+				text: '其他',
+				link: '/pages/',
+				items: [{
+					text: '其他',
+					link: '/pages/IT/'
+				}]
+			},
+			{
 				text: 'Github',
 				link: 'https://github.com/IGunKe/myblog'
 			}
@@ -80,7 +88,24 @@ module.exports = {
 				path: '/pages/Es5/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
 				collapsable: false, // 可选的, 默认值是 true,
 				sidebarDepth: 1, // 可选的, 默认值是 1
-				children: ['/pages/Es5/01.md']
+				children: ['/pages/Es5/01.md',
+					'/pages/Es5/02.md',
+					'/pages/Es5/03.md',
+					'/pages/Es5/04.md',
+					'/pages/Es5/05.md',
+					'/pages/Es5/06.md',
+					'/pages/Es5/07.md',
+					'/pages/Es5/08.md',
+					'/pages/Es5/09.md',
+					'/pages/Es5/10.md',
+					'/pages/Es5/11.md',
+					'/pages/Es5/12.md',
+					'/pages/Es5/13.md',
+					'/pages/Es5/14.md',
+					'/pages/Es5/15.md',
+					'/pages/Es5/16.md',
+					'/pages/Es5/17.md',
+				]
 			}],
 			'/pages/VUE2/': [{
 				title: 'VUE2', // 必要的
@@ -102,6 +127,19 @@ module.exports = {
 					'/pages/VUE2/12.md',
 					'/pages/VUE2/13.md',
 					'/pages/VUE2/14.md',
+					'/pages/VUE2/15.md',
+					'/pages/VUE2/16.md',
+					'/pages/VUE2/17.md',
+					'/pages/VUE2/18.md',
+					'/pages/VUE2/19.md',
+					'/pages/VUE2/20.md',
+					'/pages/VUE2/21.md',
+					'/pages/VUE2/22.md',
+					'/pages/VUE2/23.md',
+					'/pages/VUE2/24.md',
+					'/pages/VUE2/25.md',
+					'/pages/VUE2/26.md',
+					'/pages/VUE2/27.md',
 				]
 			}],
 			'/pages/NUXT/': [{
@@ -124,7 +162,9 @@ module.exports = {
 					'/pages/Es6/05.md',
 					'/pages/Es6/06.md',
 					'/pages/Es6/07.md',
-					'/pages/Es6/08.md'
+					'/pages/Es6/08.md',
+					'/pages/Es6/09.md',
+					'/pages/Es6/10.md'
 				]
 			}],
 			'/pages/Ts/': [{
@@ -160,6 +200,7 @@ module.exports = {
 					'/pages/Webpack/02.md',
 					'/pages/Webpack/03.md',
 					'/pages/Webpack/04.md',
+					'/pages/Webpack/05.md',
 
 				]
 			}],
@@ -175,6 +216,30 @@ module.exports = {
 					'/pages/HTML/04.md',
 					'/pages/HTML/05.md',
 					'/pages/HTML/06.md'
+				]
+			}],
+			'/pages/CSS/': [{
+				title: 'CSS', // 必要的
+				path: '/pages/CSS/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+				collapsable: false, // 可选的, 默认值是 true,
+				sidebarDepth: 1, // 可选的, 默认值是 1
+				children: [
+					'/pages/CSS/01.md',
+					'/pages/CSS/02.md',
+					'/pages/CSS/03.md',
+					'/pages/CSS/04.md',
+				]
+			}],
+			'/pages/其他/': [{
+				title: '其他', // 必要的
+				path: '/pages/IT/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+				collapsable: false, // 可选的, 默认值是 true,
+				sidebarDepth: 1, // 可选的, 默认值是 1
+				children: [
+					'/pages/IT/01.md',
+					'/pages/IT/02.md',
+					'/pages/IT/03.md',
+					'/pages/IT/04.md',
 				]
 			}],
 		}
