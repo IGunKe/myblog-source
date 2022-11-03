@@ -67,6 +67,12 @@ module.exports = {
 				items: [{
 					text: 'Webpack',
 					link: '/pages/Webpack/'
+				}, {
+					text: 'Pinia',
+					link: '/pages/Pinia/'
+				}, {
+					text: 'vueRouter',
+					link: '/pages/vueRouter/'
 				}]
 			},
 			{
@@ -75,6 +81,12 @@ module.exports = {
 				items: [{
 					text: '其他',
 					link: '/pages/IT/'
+				}, {
+					text: 'NODEJS',
+					link: '/pages/NodeJS/'
+				}, {
+					text: 'Web',
+					link: '/pages/Web/'
 				}]
 			},
 			{
@@ -105,6 +117,7 @@ module.exports = {
 					'/pages/Es5/15.md',
 					'/pages/Es5/16.md',
 					'/pages/Es5/17.md',
+					'/pages/Es5/18.md',
 				]
 			}],
 			'/pages/VUE2/': [{
@@ -164,7 +177,10 @@ module.exports = {
 					'/pages/Es6/07.md',
 					'/pages/Es6/08.md',
 					'/pages/Es6/09.md',
-					'/pages/Es6/10.md'
+					'/pages/Es6/10.md',
+					'/pages/Es6/11.md',
+					'/pages/Es6/12.md',
+
 				]
 			}],
 			'/pages/Ts/': [{
@@ -230,16 +246,91 @@ module.exports = {
 					'/pages/CSS/04.md',
 				]
 			}],
-			'/pages/其他/': [{
+			'/pages/IT/': [{
 				title: '其他', // 必要的
 				path: '/pages/IT/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
 				collapsable: false, // 可选的, 默认值是 true,
 				sidebarDepth: 1, // 可选的, 默认值是 1
 				children: [
-					'/pages/IT/01.md',
-					'/pages/IT/02.md',
-					'/pages/IT/03.md',
-					'/pages/IT/04.md',
+
+				]
+			}],
+			'/pages/NodeJS/': [{
+				title: 'NodeJS', // 必要的
+				path: '/pages/NodeJS/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+				collapsable: false, // 可选的, 默认值是 true,
+				sidebarDepth: 1, // 可选的, 默认值是 1
+				children: [
+					'/pages/NodeJS/01.md',
+					'/pages/NodeJS/02.md',
+					'/pages/NodeJS/03.md',
+				]
+			}],
+			'/pages/Pinia/': [{
+				title: 'Pinia', // 必要的
+				path: '/pages/Pinia/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+				collapsable: false, // 可选的, 默认值是 true,
+				sidebarDepth: 1, // 可选的, 默认值是 1
+				children: [
+					'/pages/Pinia/01.md',
+				]
+			}],
+			'/pages/VUE3/': [{
+				title: 'VUE3', // 必要的
+				path: '/pages/VUE3/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+				collapsable: false, // 可选的, 默认值是 true,
+				sidebarDepth: 1, // 可选的, 默认值是 1
+				children: [
+					'/pages/VUE3/01.md',
+					'/pages/VUE3/02.md',
+					'/pages/VUE3/03.md',
+					'/pages/VUE3/04.md',
+					'/pages/VUE3/05.md',
+					'/pages/VUE3/06.md',
+					'/pages/VUE3/07.md',
+					'/pages/VUE3/08.md',
+					'/pages/VUE3/09.md',
+					'/pages/VUE3/10.md',
+					'/pages/VUE3/11.md',
+					'/pages/VUE3/12.md',
+					'/pages/VUE3/13.md',
+					'/pages/VUE3/14.md',
+					'/pages/VUE3/15.md',
+					'/pages/VUE3/16.md',
+					'/pages/VUE3/17.md',
+					'/pages/VUE3/18.md',
+					'/pages/VUE3/19.md',
+					'/pages/VUE3/20.md',
+					'/pages/VUE3/21.md',
+					'/pages/VUE3/22.md',
+					'/pages/VUE3/23.md',
+					'/pages/VUE3/24.md',
+				]
+			}],
+			'/pages/vueRouter/': [{
+				title: 'vueRouter', // 必要的
+				path: '/pages/vueRouter/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+				collapsable: false, // 可选的, 默认值是 true,
+				sidebarDepth: 1, // 可选的, 默认值是 1
+				children: [
+					'/pages/vueRouter/01.md',
+					'/pages/vueRouter/02.md',
+					'/pages/vueRouter/03.md',
+					'/pages/vueRouter/04.md',
+					'/pages/vueRouter/05.md',
+				]
+			}],
+			'/pages/Web/': [{
+				title: 'Web', // 必要的
+				path: '/pages/Web/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+				collapsable: false, // 可选的, 默认值是 true,
+				sidebarDepth: 1, // 可选的, 默认值是 1
+				children: [
+					'/pages/Web/01.md',
+					'/pages/Web/02.md',
+					'/pages/Web/03.md',
+					'/pages/Web/04.md',
+					'/pages/Web/05.md',
 				]
 			}],
 		}
