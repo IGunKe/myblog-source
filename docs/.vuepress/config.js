@@ -2,7 +2,7 @@ module.exports = {
 	title: 'xdj-blog',
 	description: 'Just playing around',
 	dest: './myblog',
-	base: '/myblog/',
+	base: '/',
 
 	locales: {
 		'/zh/': {
@@ -65,33 +65,39 @@ module.exports = {
 				text: '工具',
 				link: '/pages/',
 				items: [{
-					text: 'Webpack',
-					link: '/pages/Webpack/'
-				}, {
-					text: 'Pinia',
-					link: '/pages/Pinia/'
-				}, {
-					text: 'vueRouter',
-					link: '/pages/vueRouter/'
-				}]
+						text: 'Webpack',
+						link: '/pages/Webpack/'
+					},
+					{
+						text: 'Pinia',
+						link: '/pages/Pinia/'
+					},
+					{
+						text: 'vueRouter',
+						link: '/pages/vueRouter/'
+					}
+				]
 			},
 			{
 				text: '其他',
 				link: '/pages/',
 				items: [{
-					text: '其他',
-					link: '/pages/IT/'
-				}, {
-					text: 'NODEJS',
-					link: '/pages/NodeJS/'
-				}, {
-					text: 'Web',
-					link: '/pages/Web/'
-				}]
+						text: '其他',
+						link: '/pages/IT/'
+					},
+					{
+						text: 'NODEJS',
+						link: '/pages/NodeJS/'
+					},
+					{
+						text: 'Web',
+						link: '/pages/Web/'
+					}
+				]
 			},
 			{
 				text: 'Github',
-				link: 'https://github.com/IGunKe/myblog'
+				link: 'https://github.com/IGunKe/myblog-source'
 			}
 		],
 		sidebar: {
@@ -118,7 +124,7 @@ module.exports = {
 					'/pages/Es5/15.md',
 					'/pages/Es5/16.md',
 					'/pages/Es5/17.md',
-					'/pages/Es5/18.md',
+					'/pages/Es5/18.md'
 				]
 			}],
 			'/pages/VUE2/': [{
@@ -153,7 +159,7 @@ module.exports = {
 					'/pages/VUE2/24.md',
 					'/pages/VUE2/25.md',
 					'/pages/VUE2/26.md',
-					'/pages/VUE2/27.md',
+					'/pages/VUE2/27.md'
 				]
 			}],
 			'/pages/NUXT/': [{
@@ -180,8 +186,7 @@ module.exports = {
 					'/pages/Es6/09.md',
 					'/pages/Es6/10.md',
 					'/pages/Es6/11.md',
-					'/pages/Es6/12.md',
-
+					'/pages/Es6/12.md'
 				]
 			}],
 			'/pages/Ts/': [{
@@ -217,8 +222,7 @@ module.exports = {
 					'/pages/Webpack/02.md',
 					'/pages/Webpack/03.md',
 					'/pages/Webpack/04.md',
-					'/pages/Webpack/05.md',
-
+					'/pages/Webpack/05.md'
 				]
 			}],
 			'/pages/HTML/': [{
@@ -244,7 +248,7 @@ module.exports = {
 					'/pages/CSS/01.md',
 					'/pages/CSS/02.md',
 					'/pages/CSS/03.md',
-					'/pages/CSS/04.md',
+					'/pages/CSS/04.md'
 				]
 			}],
 			'/pages/IT/': [{
@@ -252,9 +256,7 @@ module.exports = {
 				path: '/pages/IT/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
 				collapsable: false, // 可选的, 默认值是 true,
 				sidebarDepth: 1, // 可选的, 默认值是 1
-				children: [
-
-				]
+				children: []
 			}],
 			'/pages/NodeJS/': [{
 				title: 'NodeJS', // 必要的
@@ -264,7 +266,7 @@ module.exports = {
 				children: [
 					'/pages/NodeJS/01.md',
 					'/pages/NodeJS/02.md',
-					'/pages/NodeJS/03.md',
+					'/pages/NodeJS/03.md'
 				]
 			}],
 			'/pages/Pinia/': [{
@@ -272,9 +274,7 @@ module.exports = {
 				path: '/pages/Pinia/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
 				collapsable: false, // 可选的, 默认值是 true,
 				sidebarDepth: 1, // 可选的, 默认值是 1
-				children: [
-					'/pages/Pinia/01.md',
-				]
+				children: ['/pages/Pinia/01.md']
 			}],
 			'/pages/VUE3/': [{
 				title: 'VUE3', // 必要的
@@ -305,7 +305,7 @@ module.exports = {
 					'/pages/VUE3/21.md',
 					'/pages/VUE3/22.md',
 					'/pages/VUE3/23.md',
-					'/pages/VUE3/24.md',
+					'/pages/VUE3/24.md'
 				]
 			}],
 			'/pages/vueRouter/': [{
@@ -318,7 +318,7 @@ module.exports = {
 					'/pages/vueRouter/02.md',
 					'/pages/vueRouter/03.md',
 					'/pages/vueRouter/04.md',
-					'/pages/vueRouter/05.md',
+					'/pages/vueRouter/05.md'
 				]
 			}],
 			'/pages/Web/': [{
@@ -331,9 +331,9 @@ module.exports = {
 					'/pages/Web/02.md',
 					'/pages/Web/03.md',
 					'/pages/Web/04.md',
-					'/pages/Web/05.md',
+					'/pages/Web/05.md'
 				]
-			}],
+			}]
 		}
 	}
 };
